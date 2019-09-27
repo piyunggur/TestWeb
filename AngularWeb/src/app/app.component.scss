@@ -26,3 +26,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  .dropdown-content .dropdown-link:hover{
+    background-color: gray;
+    color: white;
+  }

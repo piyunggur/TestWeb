@@ -15,9 +15,9 @@
                     <div class="dropdown">
                         <a class="nav-link" id="link-tutorail">Tutorial</a>
                         <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
+                            <a class="dropdown-link" [routerLink]="['/HeroesApp']">Heroes App</a>
+                            <a class="dropdown-link" href="#">Link 2</a>
+                            <a class="dropdown-link" href="#">Link 3</a>
                         </div>
                     </div>
                 </li>
@@ -28,7 +28,7 @@
                         Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Select1</a>
+                        <a class="dropdown-item" [routerLink]="['/HeroesApp']">Select1</a>
                         <a class="dropdown-item" href="#">Select2</a>
                         <hr>
                         <a class="dropdown-item" href="#">Select3</a>
